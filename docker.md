@@ -19,3 +19,7 @@ https://www.aquasec.com/cloud-native-academy/kubernetes-in-production/kubernetes
 https://kubernetes.io/docs/tasks/debug-application-cluster/audit/
 
 https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html
+
+
+
+https://inge.4pr.es/post/grpc-traffic-mirroring-with-ingress-nginx-on-k8s/
