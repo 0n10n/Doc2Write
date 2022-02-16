@@ -16,13 +16,16 @@
 
 例如：
 
+| `ommand1 & command2`   | Execute command2 after execution of command1 has finished    | `command1command2`                       |
+| ---------------------- | ------------------------------------------------------------ | ---------------------------------------- |
+| `command1 && command2` | Execute command2 only if execution of command1 has finished *successfully* | `command1IF %ErrorLevel% EQU 0 command2` |
+| `command1 || command2` | Execute command2 only if execution of command1 has finished ***un**successfully* | `command1IF %ErrorLevel% NEQ 0 command2` |
 
+ 
 
 
 
 参考文档：
-
-https://www.robvanderwoude.com/battech.php
 
 https://www.robvanderwoude.com/escapechars.php
 
@@ -30,3 +33,6 @@ https://stackoverflow.com/questions/6828751/batch-character-escaping
 
 https://stackoverflow.com/questions/4094699/how-does-the-windows-command-interpreter-cmd-exe-parse-scripts/4095133#4095133
 
+Ref:
+
+https://www.robvanderwoude.com/battech.php

@@ -1,0 +1,10 @@
+@echo off
+SETLOCAL  ENABLEDELAYEDEXPANSION 
+
+@set VAR1=
+FOR %%A IN (1 2 3) DO (
+SET VAR1=!VAR1!%%A
+echo !VAR1!
+)
+SET VAR1
+@ECHO.
